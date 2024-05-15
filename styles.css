@@ -1,7 +1,8 @@
+/* Light Theme */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
-    color: #333;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #202124;
     margin: 0;
     padding: 20px;
     transition: background-color 0.3s, color 0.3s;
@@ -11,8 +12,8 @@ body {
     margin: 0 auto;
     background-color: #ffffff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, color 0.3s;
 }
 .header-container {
@@ -22,7 +23,7 @@ body {
     margin-bottom: 20px;
 }
 h1, h2 {
-    color: #333;
+    color: #202124;
 }
 .header, .section {
     margin-bottom: 20px;
@@ -32,28 +33,29 @@ h1, h2 {
 }
 .contact-info {
     margin-top: 10px;
-    color: #555;
+    color: #5f6368;
 }
 .contact-info a {
-    color: #555;
+    color: #1a73e8;
     text-decoration: none;
 }
 .contact-info a:hover {
     text-decoration: underline;
 }
 .section-title {
-    background-color: #dfe7fd;
+    background-color: #1a73e8;
+    color: #ffffff;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .section-content {
     padding: 10px;
-    border: 1px solid #dfe7fd;
-    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
 }
 .job-title {
     font-weight: bold;
-    color: #3b82f6;
+    color: #1a73e8;
 }
 .job-details {
     margin-left: 20px;
@@ -62,16 +64,16 @@ h1, h2 {
     display: block;
     padding: 10px;
     text-align: center;
-    background-color: #3b82f6;
+    background-color: #1a73e8;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     font-size: 16px;
     margin-right: 20px;
 }
 .download-btn:hover {
-    background-color: #2a63b6;
+    background-color: #135ba1;
 }
 .theme-toggle {
     display: flex;
@@ -80,7 +82,7 @@ h1, h2 {
 .theme-toggle label {
     margin-right: 10px;
     font-size: 14px;
-    color: #333;
+    color: #202124;
 }
 .theme-toggle .switch {
     position: relative;
@@ -116,42 +118,44 @@ h1, h2 {
     border-radius: 50%;
 }
 .theme-toggle input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #1a73e8;
 }
 .theme-toggle input:checked + .slider:before {
     transform: translateX(14px);
 }
+
+/* Dark Theme */
 .dark-theme {
-    background-color: #2e2e2e;
-    color: #f0f0f0;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 .dark-theme .container {
-    background-color: #3b3b3b;
-    color: #f0f0f0;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
 }
 .dark-theme h1, .dark-theme h2, .dark-theme .theme-toggle label {
-    color: #f0f0f0;
+    color: #e0e0e0;
 }
 .dark-theme .section-title {
-    background-color: #456791;
-    color: #f0f0f0;
+    background-color: #4285f4;
+    color: #ffffff;
 }
 .dark-theme .section-content {
-    border-color: #456791;
+    border-color: #4285f4;
 }
 .dark-theme .contact-info {
-    color: #f0f0f0;
+    color: #e0e0e0;
 }
 .dark-theme .contact-info a {
-    color: #f0f0f0;
+    color: #8ab4f8;
 }
 .dark-theme .job-title {
-    color: #80d4ff;
+    color: #8ab4f8;
 }
 .dark-theme .download-btn {
-    background-color: #2196F3;
-    color: #fff;
+    background-color: #4285f4;
+    color: #ffffff;
 }
 .dark-theme .download-btn:hover {
-    background-color: #1e88e5;
+    background-color: #357ae8;
 }
